@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    background-color: #cccbcf;
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .first-section{
+    background-image:url("/Belt-Exam-sarah/backgroung-01.png");
+    background-size: cover;
+    width: 1920px ;
+    height: 1040px ;
+background-color: #000000;
+    border-radius: 50px;
+    border-width:thin ;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #edf0f1;
+    width: 1900px;
+}
+
+.header img {
+    position: absolute;
+    left:170px;
+    height: 130px;
+}
+
+
+
+.header-contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 1000px;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+
+.header-contents li a {
+    padding: 0px 10px;
+    font-size: 35px;
+    color: #edf0f1;
+}
+
+
+  
+  body, button, input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+  }
+  
+  .container{
+    display: flex;
+    /* border: solid wheat ; */
+    margin-top: 200px;
+    justify-content: center;
+    height: 700px;
+  }
+
+  .screen {
+    position: relative;
+    background: #5f3434;
+    border-radius: 15px;
+    height: 500px;
+    width: 890px;
+  }
+  
+  
+  
+  .screen-body {
+    display: flex;
+    background-color: #cccbcf;
+    border-radius: 20px;
+    height: 500px;
+    width: 890px;
+  }
+  
+  .screen-body-item {
+    padding: 50px;
+    height: 500px;
+    width: 890px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(to right, #7BCFCE 0%, #FD0809 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 50px;
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    margin: 10px;
+    border: none;
+    background: linear-gradient(to right, #7BCFCE 0%, #FD0809 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
